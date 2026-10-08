@@ -1,5 +1,3 @@
-# CreateHub
-
 # CreateHub – Creative Local Marketplace
 
 ## Description
