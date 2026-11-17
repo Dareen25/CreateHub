@@ -18,17 +18,6 @@ void main() {
     await tester.pumpWidget(const CreateHubApp());
     await tester.pumpAndSettle();
 
-    await tester.tap(find.text('Search').last);
-    await tester.pumpAndSettle();
-    expect(
-      find.text('Find creative products, artists, and maker tools here.'),
-      findsOneWidget,
-    );
-    expect(
-      tester.widget<NavigationBar>(find.byType(NavigationBar)).selectedIndex,
-      1,
-    );
-
     await tester.tap(find.text('Cart').last);
     await tester.pumpAndSettle();
     expect(
@@ -37,7 +26,7 @@ void main() {
     );
     expect(
       tester.widget<NavigationBar>(find.byType(NavigationBar)).selectedIndex,
-      2,
+      1,
     );
 
     await tester.tap(find.text('Profile').last);
@@ -50,7 +39,7 @@ void main() {
     );
     expect(
       tester.widget<NavigationBar>(find.byType(NavigationBar)).selectedIndex,
-      3,
+      2,
     );
   });
 }
