@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../constants/values_manager.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
@@ -23,26 +24,13 @@ class CustomBottomNavigationBar extends StatelessWidget {
         unselectedItemColor: Theme.of(context).colorScheme.onPrimary,
         onTap: onTap,
         items: [
-          _buildNavItem(
-            context,
-            icon: Icons.home_outlined,
-            label: 'Home',
-          ),
-          _buildNavItem(
-            context,
-            icon: Icons.search,
-            label: 'Search',
-          ),
+          _buildNavItem(context, icon: Icons.home_outlined, label: 'Home'),
           _buildNavItem(
             context,
             icon: Icons.shopping_cart_outlined,
             label: 'Cart',
           ),
-          _buildNavItem(
-            context,
-            icon: Icons.person_outline,
-            label: 'Profile',
-          ),
+          _buildNavItem(context, icon: Icons.person_outline, label: 'Profile'),
         ],
       ),
     );

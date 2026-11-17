@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../features/cart/cart_screen.dart';
-import '../../features/home/home_screen.dart';
-import '../../features/profile/profile_screen.dart';
-import '../../features/search/search_screen.dart';
-import '../shared_widgets/app_bottom_navigation_bar.dart';
+import 'package:createhub/features/cart/presentation/view/cart_screen.dart';
+import 'package:createhub/features/home/presentation/view/home_screen.dart';
+import 'package:createhub/features/profile/presentation/view/profile_screen.dart';
+import 'package:createhub/core/shared_widgets/app_bottom_navigation_bar.dart';
 import 'nav_helper.dart';
 import 'route_path.dart';
 
@@ -26,10 +25,6 @@ abstract class AppRouter {
           GoRoute(
             path: RoutePath.homeRoute,
             builder: (context, state) => const HomeScreen(),
-          ),
-          GoRoute(
-            path: RoutePath.searchRoute,
-            builder: (context, state) => const SearchScreen(),
           ),
           GoRoute(
             path: RoutePath.cartRoute,

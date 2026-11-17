@@ -25,10 +25,6 @@ class AppBottomNavigationBar extends StatelessWidget {
           label: l10n.home,
         ),
         NavigationDestination(
-          icon: const Icon(Icons.search_rounded),
-          label: l10n.search,
-        ),
-        NavigationDestination(
           icon: const Icon(Icons.shopping_cart_outlined),
           selectedIcon: const Icon(Icons.shopping_cart_rounded),
           label: l10n.cart,
