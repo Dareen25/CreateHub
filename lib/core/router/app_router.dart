@@ -14,7 +14,7 @@ import 'route_path.dart';
 
 abstract class AppRouter {
   static final GoRouter goRouter = GoRouter(
-    initialLocation: RoutePath.homeRoute,
+    initialLocation: RoutePath.loginRoute,
     routes: [
       ShellRoute(
         builder: (context, state, child) => Scaffold(

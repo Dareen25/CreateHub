@@ -23,7 +23,7 @@ Future<void> configureDependencies() {
   );
   getIt.registerLazySingleton(() => DioModule().dio(getIt<AuthInterceptor>()));
   getIt.registerLazySingleton<FirebaseAuthDataSource>(
-    () => FirebaseAuthDataSourceImpl(FirebaseAuth.instance),
+    () => FirebaseAuthDataSourceImpl(() => FirebaseAuth.instance),
   );
   getIt.registerLazySingleton<AuthRepository>(
     () => AuthRepositoryImpl(getIt<FirebaseAuthDataSource>()),
