@@ -6,8 +6,5 @@ abstract class RoutePath {
   static const String profileRoute = '/profile';
   static const String loginRoute = '/login';
   static const String registerRoute = '/register';
-
-
-
-
+  static const String forgotPasswordRoute = '/forgot-password';
 }

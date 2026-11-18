@@ -102,4 +102,101 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get profilePlaceholderMessage =>
       'Your account details, orders, and saved items will appear here.';
+
+  @override
+  String get loginTitle => 'Welcome back';
+
+  @override
+  String get loginSubtitle => 'Sign in to continue exploring CreateHub.';
+
+  @override
+  String get registerTitle => 'Create your account';
+
+  @override
+  String get registerSubtitle => 'Join the CreateHub creative community.';
+
+  @override
+  String get forgotPasswordTitle => 'Reset your password';
+
+  @override
+  String get forgotPasswordSubtitle =>
+      'Enter your email and we’ll send you a reset link.';
+
+  @override
+  String get emailLabel => 'Email address';
+
+  @override
+  String get passwordLabel => 'Password';
+
+  @override
+  String get confirmPassword => 'Confirm password';
+
+  @override
+  String get loginAction => 'Sign in';
+
+  @override
+  String get registerAction => 'Create account';
+
+  @override
+  String get forgotPassword => 'Forgot password?';
+
+  @override
+  String get sendResetEmail => 'Send reset email';
+
+  @override
+  String get backToLogin => 'Back to sign in';
+
+  @override
+  String get noAccountRegister => 'New to CreateHub? Create an account';
+
+  @override
+  String get haveAccountLogin => 'Already have an account? Sign in';
+
+  @override
+  String get emailRequired => 'Please enter your email address.';
+
+  @override
+  String get emailInvalid => 'Enter a valid email address.';
+
+  @override
+  String get passwordRequired => 'Please enter your password.';
+
+  @override
+  String get passwordTooShort => 'Use at least 6 characters for your password.';
+
+  @override
+  String get passwordsDoNotMatch => 'The passwords do not match.';
+
+  @override
+  String get authInvalidCredentials => 'The email or password is incorrect.';
+
+  @override
+  String get authUserDisabled =>
+      'This account has been disabled. Contact support.';
+
+  @override
+  String get authUserNotFound => 'No account was found for that email.';
+
+  @override
+  String get authEmailInUse => 'An account already exists for that email.';
+
+  @override
+  String get authTooManyRequests =>
+      'Too many attempts. Please wait and try again.';
+
+  @override
+  String get authNetworkError =>
+      'Connection problem. Check your internet and try again.';
+
+  @override
+  String get authGenericError =>
+      'We couldn’t complete that request. Please try again.';
+
+  @override
+  String get firebaseNotConfigured =>
+      'Authentication is not connected yet. Complete the Firebase setup steps in FIREBASE_SETUP.md.';
+
+  @override
+  String get resetEmailSent =>
+      'If an account uses this email, a password reset link has been sent.';
 }

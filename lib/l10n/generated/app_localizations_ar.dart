@@ -101,4 +101,101 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get profilePlaceholderMessage =>
       'ستظهر هنا تفاصيل حسابك وطلباتك والعناصر المحفوظة.';
+
+  @override
+  String get loginTitle => 'مرحبًا بعودتك';
+
+  @override
+  String get loginSubtitle => 'سجّل الدخول لمواصلة استكشاف كريت هَب.';
+
+  @override
+  String get registerTitle => 'أنشئ حسابك';
+
+  @override
+  String get registerSubtitle => 'انضم إلى مجتمع كريت هَب الإبداعي.';
+
+  @override
+  String get forgotPasswordTitle => 'إعادة تعيين كلمة المرور';
+
+  @override
+  String get forgotPasswordSubtitle =>
+      'أدخل بريدك الإلكتروني لنرسل إليك رابط إعادة التعيين.';
+
+  @override
+  String get emailLabel => 'البريد الإلكتروني';
+
+  @override
+  String get passwordLabel => 'كلمة المرور';
+
+  @override
+  String get confirmPassword => 'تأكيد كلمة المرور';
+
+  @override
+  String get loginAction => 'تسجيل الدخول';
+
+  @override
+  String get registerAction => 'إنشاء حساب';
+
+  @override
+  String get forgotPassword => 'هل نسيت كلمة المرور؟';
+
+  @override
+  String get sendResetEmail => 'إرسال رسالة إعادة التعيين';
+
+  @override
+  String get backToLogin => 'العودة إلى تسجيل الدخول';
+
+  @override
+  String get noAccountRegister => 'جديد في كريت هَب؟ أنشئ حسابًا';
+
+  @override
+  String get haveAccountLogin => 'لديك حساب بالفعل؟ سجّل الدخول';
+
+  @override
+  String get emailRequired => 'يرجى إدخال بريدك الإلكتروني.';
+
+  @override
+  String get emailInvalid => 'أدخل بريدًا إلكترونيًا صحيحًا.';
+
+  @override
+  String get passwordRequired => 'يرجى إدخال كلمة المرور.';
+
+  @override
+  String get passwordTooShort =>
+      'يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.';
+
+  @override
+  String get passwordsDoNotMatch => 'كلمتا المرور غير متطابقتين.';
+
+  @override
+  String get authInvalidCredentials =>
+      'البريد الإلكتروني أو كلمة المرور غير صحيحة.';
+
+  @override
+  String get authUserDisabled => 'تم تعطيل هذا الحساب. تواصل مع الدعم.';
+
+  @override
+  String get authUserNotFound =>
+      'لم يتم العثور على حساب بهذا البريد الإلكتروني.';
+
+  @override
+  String get authEmailInUse => 'يوجد حساب مسجل بهذا البريد الإلكتروني بالفعل.';
+
+  @override
+  String get authTooManyRequests =>
+      'عدد المحاولات كبير. انتظر قليلًا ثم حاول مجددًا.';
+
+  @override
+  String get authNetworkError => 'تعذر الاتصال. تحقق من الإنترنت وحاول مجددًا.';
+
+  @override
+  String get authGenericError => 'تعذر إكمال الطلب. حاول مرة أخرى.';
+
+  @override
+  String get firebaseNotConfigured =>
+      'لم يتم ربط المصادقة بعد. أكمل خطوات إعداد Firebase في ملف FIREBASE_SETUP.md.';
+
+  @override
+  String get resetEmailSent =>
+      'إذا كان هناك حساب بهذا البريد، فقد أُرسل رابط إعادة تعيين كلمة المرور.';
 }

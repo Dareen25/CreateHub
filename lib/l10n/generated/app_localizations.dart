@@ -277,6 +277,186 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Your account details, orders, and saved items will appear here.'**
   String get profilePlaceholderMessage;
+
+  /// No description provided for @loginTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back'**
+  String get loginTitle;
+
+  /// No description provided for @loginSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to continue exploring CreateHub.'**
+  String get loginSubtitle;
+
+  /// No description provided for @registerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Create your account'**
+  String get registerTitle;
+
+  /// No description provided for @registerSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Join the CreateHub creative community.'**
+  String get registerSubtitle;
+
+  /// No description provided for @forgotPasswordTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset your password'**
+  String get forgotPasswordTitle;
+
+  /// No description provided for @forgotPasswordSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email and we’ll send you a reset link.'**
+  String get forgotPasswordSubtitle;
+
+  /// No description provided for @emailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Email address'**
+  String get emailLabel;
+
+  /// No description provided for @passwordLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get passwordLabel;
+
+  /// No description provided for @confirmPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm password'**
+  String get confirmPassword;
+
+  /// No description provided for @loginAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in'**
+  String get loginAction;
+
+  /// No description provided for @registerAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Create account'**
+  String get registerAction;
+
+  /// No description provided for @forgotPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot password?'**
+  String get forgotPassword;
+
+  /// No description provided for @sendResetEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Send reset email'**
+  String get sendResetEmail;
+
+  /// No description provided for @backToLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to sign in'**
+  String get backToLogin;
+
+  /// No description provided for @noAccountRegister.
+  ///
+  /// In en, this message translates to:
+  /// **'New to CreateHub? Create an account'**
+  String get noAccountRegister;
+
+  /// No description provided for @haveAccountLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account? Sign in'**
+  String get haveAccountLogin;
+
+  /// No description provided for @emailRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email address.'**
+  String get emailRequired;
+
+  /// No description provided for @emailInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid email address.'**
+  String get emailInvalid;
+
+  /// No description provided for @passwordRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your password.'**
+  String get passwordRequired;
+
+  /// No description provided for @passwordTooShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Use at least 6 characters for your password.'**
+  String get passwordTooShort;
+
+  /// No description provided for @passwordsDoNotMatch.
+  ///
+  /// In en, this message translates to:
+  /// **'The passwords do not match.'**
+  String get passwordsDoNotMatch;
+
+  /// No description provided for @authInvalidCredentials.
+  ///
+  /// In en, this message translates to:
+  /// **'The email or password is incorrect.'**
+  String get authInvalidCredentials;
+
+  /// No description provided for @authUserDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'This account has been disabled. Contact support.'**
+  String get authUserDisabled;
+
+  /// No description provided for @authUserNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No account was found for that email.'**
+  String get authUserNotFound;
+
+  /// No description provided for @authEmailInUse.
+  ///
+  /// In en, this message translates to:
+  /// **'An account already exists for that email.'**
+  String get authEmailInUse;
+
+  /// No description provided for @authTooManyRequests.
+  ///
+  /// In en, this message translates to:
+  /// **'Too many attempts. Please wait and try again.'**
+  String get authTooManyRequests;
+
+  /// No description provided for @authNetworkError.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection problem. Check your internet and try again.'**
+  String get authNetworkError;
+
+  /// No description provided for @authGenericError.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t complete that request. Please try again.'**
+  String get authGenericError;
+
+  /// No description provided for @firebaseNotConfigured.
+  ///
+  /// In en, this message translates to:
+  /// **'Authentication is not connected yet. Complete the Firebase setup steps in FIREBASE_SETUP.md.'**
+  String get firebaseNotConfigured;
+
+  /// No description provided for @resetEmailSent.
+  ///
+  /// In en, this message translates to:
+  /// **'If an account uses this email, a password reset link has been sent.'**
+  String get resetEmailSent;
 }
 
 class _AppLocalizationsDelegate
